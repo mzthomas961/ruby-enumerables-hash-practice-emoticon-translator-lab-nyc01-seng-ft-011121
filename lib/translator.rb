@@ -22,4 +22,4 @@ def load_library (file)
   def get_japanese_meaning(file,emoticon)
     load_library(file).each do |key,value|
       if value[:english] == emoticon
-        
+        return value[:japanese]
