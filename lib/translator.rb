@@ -25,5 +25,7 @@ def load_library (file)
         return value[:japanese]
       end
     end
-    
+        return "Sorry, that emoticon was not found"
+        
+      end
       
