@@ -16,6 +16,6 @@ def load_library (file)
         return key
       end
     end
-    return "Sorry, emoticon not found"
+    return "Sorry, that emoticon was not found"
   end
     
