@@ -19,3 +19,6 @@ def load_library (file)
     return "Sorry, that emoticon was not found"
   end
     
+  def get_japanese_meaning(file,emoticon)
+    load_library(file).each do |key,value|
+      
