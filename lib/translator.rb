@@ -24,4 +24,6 @@ def load_library (file)
       if value[:english] == emoticon
         return value[:japanese]
       end
+    end
+    
       
